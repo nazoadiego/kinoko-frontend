@@ -27,7 +27,7 @@ const Sidebar: FC<SidebarProps> = ({ open, setOpen }) => {
         <NavItem text="Home" href="/">
           <FaHome />
         </NavItem>
-        <NavItem href="/statistics" text="Statistics">
+        <NavItem href="/stats" text="Statistics">
           <FaChartLine />
         </NavItem>
         <NavItem href="/mushroom-forest" text="Mushroom Forest">

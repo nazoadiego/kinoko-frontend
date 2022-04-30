@@ -6,8 +6,7 @@ interface NavItemProps {
   text: string
 }
 
-const NavItem: FC<NavItemProps> = (props) => {
-  const { href, text, children } = props
+const NavItem: FC<NavItemProps> = ({ href, text, children }) => {
   return (
     <li className="flex p-3 text-white hover:bg-[#9c57ec]">
       <Link href={href}>
