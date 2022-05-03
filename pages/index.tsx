@@ -9,17 +9,17 @@ import Footer from '../components/Footer'
 
 function HomePage() {
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-      <BasicUsage/>
-      <TrackingTime/>
-      <Tags/>
-      <MushroomForest/>
-      <FAQ/>
-      <Footer/>
-    </>
-  );
+    <div className="bg-[#0B021F]">
+      <Navbar />
+      <Hero />
+      <BasicUsage />
+      <TrackingTime />
+      <Tags />
+      <MushroomForest />
+      <FAQ />
+      <Footer />
+    </div>
+  )
 }
 
 export default HomePage;

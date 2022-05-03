@@ -23,9 +23,9 @@ export default function Example() {
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-main-violet px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
+                    className="btn btn-primary px-8 text-lg font-normal normal-case"
                   >
-                    Show me how it works!
+                    I want to start working!
                   </a>
                 </div>
               </div>
@@ -34,6 +34,9 @@ export default function Example() {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <div class="flex justify-center lg:pr-20 lg:pt-20">
+          <div class="orb-title hidden lg:block"></div>
+        </div>
         {/* <img
           className="h-64 w-full rounded-l-lg object-fill sm:h-72 md:h-96 lg:h-full lg:w-full"
           src={hero}
